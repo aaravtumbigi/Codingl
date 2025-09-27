@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Classes Example</title>
+  <style>
+    /* Links with pseudo-classes */
+    a:link {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: green;
+    }
+
+    /* Button hover and focus */
+    button {
+      padding: 10px 20px;
+      border: 2px solid black;
+      background-color: lightgray;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: yellow;
+    }
+
+    button:focus {
+      border-color: blue;
+    }
+
+    /* First child styling */
+    p:first-child {
+      font-weight: bold;
+      color: darkblue;
+    }
+
+    /* Last child styling */
+    p:last-child {
+      font-style: italic;
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Pseudo Classes Example</h2>
+
+  <div>
+    <p>This is the first paragraph (first-child).</p>
+    <p>This is the middle paragraph.</p>
+    <p>This is the last paragraph (last-child).</p>
+  </div>
+
+  <br>
+
+  <a href="https://example.com">Visit Example Website</a>
+  <br><br>
+
+  <button>Hover or Focus Me</button>
+</body>
+</html>
