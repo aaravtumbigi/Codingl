@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+</head>
+<body>
+    <h1 id="h1.1"></h1>
+    <p id="p1.1"></p>
+    <p id="sum"></p>
+    <p id="multiply"></p>
+
+    <script>
+        document.getElementById("h1.1").innerHTML = "My title";  //displaying title using JavaScript
+        document.getElementById("p1.1").innerHTML = "My paragraph content.";
+        var a = 10; //statemnet
+        var b = 20;
+        var sum = a + b;
+        document.getElementById('sum').innerHTML = sum;
+        var a, b, c;
+        a = 50;
+        b = 60;
+        c = 23;
+        var multiply = a * b * c;
+        document.getElementById('multiply').innerHTML = multiply;
+    </script>
+
+</body>
+</html>
