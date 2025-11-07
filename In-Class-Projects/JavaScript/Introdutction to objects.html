@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Objects</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var student = {
+            name: "John Doe",
+            Age: 14,
+            Grade: 8
+        };
+
+        document.getElementById("demo").innerHTML = 
+            "My name is " + student.name + 
+            ", and I am " + student.Age + 
+            " years old. I am in grade " + student.Grade + ".";
+    </script>
+
+    <h1>Math Objects Methods</h1>
+    <script>
+        var value = Math.abs(-20);
+        document.write("The value is: " + value + "<br>");
+
+        value = Math.max(10, -1);
+        document.write("The value is: " + value + "<br>");
+
+        value = Math.sin(1);
+        document.write("The value is: " + value + "<br>");
+
+        value = Math.tan(0.5);
+        document.write("The value is: " + value + "<br>");
+    </script>
+</body>
+</html>
