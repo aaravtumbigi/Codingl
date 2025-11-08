@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Javascript Arrays</h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+var students = ["Feel", "Aarav", "Tendai", "Fatema"];
+document.getElementById("demo").innerHTML = students[1];
+document.getElementById("demo1").innerHTML = students[3];
+</script>
+
+<h2>Join and Pop Methods</h2>
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+
+<script>
+var cars = ["Mercedes", "BMW", "Toyota", "Honda", "Skoda"];
+document.getElementById("p1").innerHTML = cars.join(", ");
+document.getElementById("p2").innerHTML = cars.pop();
+document.getElementById("p3").innerHTML = cars;
+document.getElementById("p4").innerHTML = cars.pop();
+document.getElementById("p5").innerHTML = cars;
+</script>
+
+<h2>Javascript Stack</h2>
+<p id="result"></p>
+
+<script>
+function add(a, b) {
+  return a + b;
+}
+
+function average(a, b) {
+  return add(a, b) / 2;
+}
+
+let results = average(40, 60);
+document.getElementById("result").innerHTML = results;
+</script>
+
+</body>
+</html>
